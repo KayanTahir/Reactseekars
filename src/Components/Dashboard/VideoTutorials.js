@@ -87,7 +87,7 @@ const textContainerStyle = {
                                             <TableCell>
                                             <Box sx={textContainerStyle}>
                                             <Paper elevation={3} sx={descriptionStyle}>
-                                             <video controls className='Video_style'><source  src={`http://127.0.0.1:8000/` +d.video_filename } type="video/mp4" /></video>
+                                             <video controls className='Video_style'><source  src={`http://ec2-13-49-73-65.eu-north-1.compute.amazonaws.com:8000/` +d.video_filename } type="video/mp4" /></video>
                                             <Typography variant="h5" onClick={handleOpenModal}><b>{d.video_realname}</b></Typography>
                                            
                                             <Typography  variant= "body1"

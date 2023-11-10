@@ -91,7 +91,7 @@ const OurCourses = () => {
                         <CardMedia
                           component="img"
                           height="240"
-                          src={`http://127.0.0.1:8000/` +d.course_img }
+                          src={`http://ec2-13-49-73-65.eu-north-1.compute.amazonaws.com:8000/` +d.course_img }
                           alt="green iguana"
                         />
                       </CardActionArea>

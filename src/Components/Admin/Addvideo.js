@@ -74,7 +74,7 @@ function VideoUpload({ open, handleClose }) {
     const formData = new FormData();
     formData.append('tutorials', file);
 
-    axios.post('http://127.0.0.1:8000/api/upload', formData)
+    axios.post('http://ec2-13-49-73-65.eu-north-1.compute.amazonaws.com:8000/api/upload', formData)
       .then(res => {
         if (res.data.status === 'Success') {
           console.log('Upload success');

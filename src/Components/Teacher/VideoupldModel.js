@@ -112,7 +112,7 @@ useEffect(()=>{
       video_despt
     }
 
-    axios.post('http://127.0.0.1:8000/api/upload', formData , body)
+    axios.post('http://ec2-13-49-73-65.eu-north-1.compute.amazonaws.com:8000/api/upload', formData , body)
       .then(res => {
         if (res.data.status === 'Success') {
           console.log('Upload success');
